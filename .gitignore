@@ -1,0 +1,5 @@
+# Separate git repo, kept alongside.
+claude-bridge/
+.venv/
+__pycache__/
+*.egg-info/

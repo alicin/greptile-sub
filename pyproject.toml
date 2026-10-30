@@ -1,0 +1,16 @@
+[project]
+name = "greptile-sub"
+version = "0.1.0"
+description = "Self-hosted GitHub PR reviewer for any OpenAI-compatible model API, built for claude-bridge"
+requires-python = ">=3.12"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Ali Bardakci" }]
+dependencies = ["openai>=1.40"]
+
+[project.scripts]
+greptile-sub = "greptile_sub.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
